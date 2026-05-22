@@ -1,0 +1,14 @@
+.DS_Store
+*.pem
+
+# env secrets
+.env
+.env.local
+.env*.local
+
+# dependencies & build (web/)
+web/node_modules/
+web/.next/
+web/out/
+web/.vercel/
+web/data/live-votes.json
