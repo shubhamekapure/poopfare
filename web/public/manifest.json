@@ -1,0 +1,16 @@
+{
+  "name": "PoopFare",
+  "short_name": "PoopFare",
+  "description": "The world's first poop charity. Make your poop count.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fafaf9",
+  "theme_color": "#78350f",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

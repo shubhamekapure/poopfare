@@ -1,0 +1,324 @@
+{
+  "countries": [
+    {
+      "code": "IN",
+      "name": "India",
+      "people": [
+        {"name": "Narendra Modi", "wiki": "Narendra Modi", "gender": "Male", "category": "Politician", "severityTier": "Timeless Offender", "crime": "Made demonetization a national sport", "charges": ["Demonetized 86% of cash overnight", "Turned WhatsApp forwards into policy", "Made opposition a full-time meme"]},
+        {"name": "Rahul Gandhi", "wiki": "Rahul Gandhi", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Lost elections like it was a hobby", "charges": ["Vanished mid-campaign repeatedly", "Inherited a party and the punchlines", "Made serious debate impossible"]},
+        {"name": "Mukesh Ambani", "wiki": "Mukesh Ambani", "gender": "Male", "category": "Corporate", "severityTier": "Timeless Offender", "crime": "Built a house with its own weather", "charges": ["Made Jio free until rivals suffocated", "Turned weddings into shareholder events", "Monopolized with a helipad smile"]},
+        {"name": "Vijay Mallya", "wiki": "Vijay Mallya", "gender": "Male", "category": "Corporate", "severityTier": "Legacy Evil", "crime": "Fled India in first-class", "charges": ["Ran Kingfisher like a nightclub", "Owed banks billions abroad", "Made 'willful defaulter' a lifestyle"]},
+        {"name": "Gautam Adani", "wiki": "Gautam Adani", "gender": "Male", "category": "Corporate", "severityTier": "Timeless Offender", "crime": "Made ports politically explosive", "charges": ["Survived Hindenburg like a season finale", "Expanded faster than scrutiny", "Turned infra into controversy"]},
+        {"name": "Salman Khan", "wiki": "Salman Khan", "gender": "Male", "category": "Celebrity", "severityTier": "Timeless Offender", "crime": "Box office immunity to headlines", "charges": ["Convicted in hit-and-run case", "Turned charity into reputation rehab", "Made stardom feel above physics"]},
+        {"name": "Arnab Goswami", "wiki": "Arnab Goswami", "gender": "Male", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Turned news into shouting Olympics", "charges": ["Asked one question at maximum volume", "Made panels feel like WWE", "Monetized outrage in HD"]},
+        {"name": "Nirav Modi", "wiki": "Nirav Modi", "gender": "Male", "category": "Corporate", "severityTier": "Legacy Evil", "crime": "Jeweled his way into Interpol", "charges": ["PNB fraud scandal globally", "Posed at Davos while warrants brewed", "Made luxury fraud photogenic"]},
+        {"name": "Lalit Modi", "wiki": "Lalit Modi", "gender": "Male", "category": "Corporate", "severityTier": "Legacy Evil", "crime": "IPL drama off the pitch", "charges": ["Cricket league scandal arc", "Exile with better Wi-Fi", "Made auctions feel criminal"]},
+        {"name": "Kangana Ranaut", "wiki": "Kangana Ranaut", "gender": "Female", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Made Twitter the main release", "charges": ["Fought Bollywood in public daily", "Turned interviews into tribunals", "Made nepotism a personal brand"]}
+      ]
+    },
+    {
+      "code": "US",
+      "name": "USA",
+      "people": [
+        {"name": "Donald Trump", "wiki": "Donald Trump", "gender": "Male", "category": "Politician", "severityTier": "Timeless Offender", "crime": "Made chaos a governing style", "charges": ["Indicted more than most file taxes", "Sold NFTs while campaigning", "Turned Twitter into foreign policy"]},
+        {"name": "Elon Musk", "wiki": "Elon Musk", "gender": "Male", "category": "Corporate", "severityTier": "Timeless Offender", "crime": "Renamed Twitter to one letter", "charges": ["Called himself Technoking", "Posted through SEC drama", "Made verification a subscription"]},
+        {"name": "Mark Zuckerberg", "wiki": "Mark Zuckerberg", "gender": "Male", "category": "Corporate", "severityTier": "Timeless Offender", "crime": "Algorithm broke your uncle", "charges": ["Rebranded to Meta mid-scandal", "Sold privacy as a beta feature", "Insists the metaverse is fine"]},
+        {"name": "Elizabeth Holmes", "wiki": "Elizabeth Holmes", "gender": "Female", "category": "Corporate", "severityTier": "Legacy Evil", "crime": "Faked blood tests with a turtleneck", "charges": ["Built Theranos on vaporware", "Deepened voice for investors", "Made medical fraud a startup"]},
+        {"name": "Martin Shkreli", "wiki": "Martin Shkreli", "gender": "Male", "category": "Corporate", "severityTier": "Legacy Evil", "crime": "Pharma bro pricing meme", "charges": ["Hiked drug prices 5,000%", "Livestreamed from prison", "Made greed a personality"]},
+        {"name": "Kanye West", "wiki": "Kanye West", "gender": "Male", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Every album drop went geopolitical", "charges": ["Sold shoes that look like foam", "Posted through every crisis", "Made antisemitism a press tour"]},
+        {"name": "Sam Bankman-Fried", "wiki": "Sam Bankman-Fried", "gender": "Male", "category": "Corporate", "severityTier": "Legacy Evil", "crime": "Effective altruism cosplay fraud", "charges": ["Ran FTX like a group chat", "Played games before Congress", "Lost billions casually"]},
+        {"name": "Jeff Bezos", "wiki": "Jeff Bezos", "gender": "Male", "category": "Corporate", "severityTier": "Timeless Offender", "crime": "Monopolized convenience", "charges": ["Flew to space during labor fights", "Made two-day shipping a human right", "Turned antitrust into newsletter content"]},
+        {"name": "Joe Biden", "wiki": "Joe Biden", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Gaffed through a presidency", "charges": ["Confused names on world stages", "Made age the main policy debate", "Tripped into memes globally"]},
+        {"name": "Kim Kardashian", "wiki": "Kim Kardashian", "gender": "Female", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Sold fame as a subscription", "charges": ["Monetized every life event", "Promoted crypto without disclaimers", "Made attention the product"]}
+      ]
+    },
+    {
+      "code": "GB",
+      "name": "England",
+      "people": [
+        {"name": "Boris Johnson", "wiki": "Boris Johnson", "gender": "Male", "category": "Politician", "severityTier": "Timeless Offender", "crime": "Partied during lockdown he set", "charges": ["Misled Parliament over parties", "Turned Brexit into a personality show", "Made hair a diplomatic strategy"]},
+        {"name": "Prince Andrew", "wiki": "Prince Andrew, Duke of York", "gender": "Male", "category": "Celebrity", "severityTier": "Legacy Evil", "crime": "BBC interview career suicide", "charges": ["Settled Epstein-linked civil case", "Claimed inability to sweat on TV", "Made royalty a liability"]},
+        {"name": "Piers Morgan", "wiki": "Piers Morgan", "gender": "Male", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Shouting passed as journalism", "charges": ["Stormed off sets for ratings", "Made Meghan a full-time beat", "Monetized breakfast outrage"]},
+        {"name": "Nigel Farage", "wiki": "Nigel Farage", "gender": "Male", "category": "Politician", "severityTier": "Timeless Offender", "crime": "Made Brexit a lifestyle brand", "charges": ["Lost seven elections personally", "Monetized nationalism abroad", "Turned pubs into policy forums"]},
+        {"name": "Tony Blair", "wiki": "Tony Blair", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Sold Iraq war with better PR", "charges": ["Chilcot report still haunts", "Made spin doctoring government", "Consults autocrats post-office"]},
+        {"name": "Rishi Sunak", "wiki": "Rishi Sunak", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Wealth gap as photo op PM", "charges": ["Green card while governing UK", "Designer gear during cost-of-living crisis", "Promised stability, delivered elections"]},
+        {"name": "Liz Truss", "wiki": "Liz Truss", "gender": "Female", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Lettuce outlasted her premiership", "charges": ["Crashed the pound in weeks", "Made mini-budget a meme", "Shortest tenure, longest punchline"]},
+        {"name": "King Charles III", "wiki": "Charles III", "gender": "Male", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Waited decades to wave differently", "charges": ["Black spider memos legacy", "Eggs became protest symbols", "Made monarchy slow TV"]},
+        {"name": "Jeremy Clarkson", "wiki": "Jeremy Clarkson", "gender": "Male", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Punched producers, kept shows", "charges": ["Wrote column wishing harm on Meghan", "Made cars secondary to controversy", "Turned farm show into outrage farm"]},
+        {"name": "Matt Hancock", "wiki": "Matt Hancock", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Kissed aide while preaching rules", "charges": ["Resigned after CCTV leak", "Joined reality TV for rehab", "Made hypocrisy HD quality"]}
+      ]
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "people": [
+        {"name": "Vladimir Putin", "wiki": "Vladimir Putin", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Invaded neighbors on TV", "charges": ["ICC warrant for war crimes", "Eliminated opposition systematically", "Shirtless horseback diplomacy"]},
+        {"name": "Dmitry Medvedev", "wiki": "Dmitry Medvedev", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Nuclear threats as tweets", "charges": ["Placeholder president once", "Posts like a comment section", "Made threats a daily column"]},
+        {"name": "Ramzan Kadyrov", "wiki": "Ramzan Kadyrov", "gender": "Male", "category": "Politician", "severityTier": "Timeless Offender", "crime": "Governed Chechnya like a fan page", "charges": ["Tiger cub flex videos", "Human rights abuse allegations", "Loyalty displays as Olympics"]},
+        {"name": "Yevgeny Prigozhin", "wiki": "Yevgeny Prigozhin", "gender": "Male", "category": "Corporate", "severityTier": "Legacy Evil", "crime": "Mercenary CEO food-blogger arc", "charges": ["Marched on Moscow then vanished", "Recruited from prisons on camera", "Made Wagner a startup"]},
+        {"name": "Roman Abramovich", "wiki": "Roman Abramovich", "gender": "Male", "category": "Corporate", "severityTier": "Legacy Evil", "crime": "Bought Chelsea, sold sanctions drama", "charges": ["Oligarch-era fortune headlines", "Superyacht seized globally", "Made football geopolitical"]},
+        {"name": "Sergey Lavrov", "wiki": "Sergey Lavrov", "gender": "Male", "category": "Politician", "severityTier": "Timeless Offender", "crime": "Denial as diplomatic art", "charges": ["Contradicted reality at UN calmly", "Made straight faces during absurdity", "Turned ministry into spin"]},
+        {"name": "Alexander Lukashenko", "wiki": "Alexander Lukashenko", "gender": "Male", "category": "Politician", "severityTier": "Timeless Offender", "crime": "Europe's last dictator posting", "charges": ["Stole elections, jailed rivals", "Diverted planes to arrest journalists", "Made Belarus a proxy playground"]},
+        {"name": "Maria Butina", "wiki": "Maria Butina", "gender": "Female", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Networked NRA like a mission", "charges": ["Convicted unregistered agent", "Built influence ops in US", "Made espionage feel like conferences"]},
+        {"name": "Patriarch Kirill", "wiki": "Patriarch Kirill of Moscow", "gender": "Male", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Blessed war in robes", "charges": ["Linked church to state propaganda", "Photoshopped luxury watch out", "Made faith a nationalist weapon"]},
+        {"name": "Margarita Simonyan", "wiki": "Margarita Simonyan", "gender": "Female", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Ran RT like a troll HQ", "charges": ["Broadcast conspiracy globally", "Cheered atrocities on air", "Made disinformation a career"]}
+      ]
+    },
+    {
+      "code": "PK",
+      "name": "Pakistan",
+      "people": [
+        {"name": "Imran Khan", "wiki": "Imran Khan", "gender": "Male", "category": "Politician", "severityTier": "Timeless Offender", "crime": "Cricket hero to jail arc", "charges": ["Convicted in multiple cases", "Blamed everyone in long speeches", "Made protest a permanent season"]},
+        {"name": "Nawaz Sharif", "wiki": "Nawaz Sharif", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Three-time PM, three-time drama", "charges": ["Panama Papers disqualification", "Returned from exile like sequel", "Made dynastic politics normal"]},
+        {"name": "Pervez Musharraf", "wiki": "Pervez Musharraf", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Coup general of Facebook era", "charges": ["Emergency rule to keep power", "Treason charges later", "Made martial law televised"]},
+        {"name": "Asif Ali Zardari", "wiki": "Asif Ali Zardari", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Mr. Ten Percent president", "charges": ["Corruption allegations for decades", "Survived politically like legend", "Made PPP a family trust"]},
+        {"name": "Maryam Nawaz", "wiki": "Maryam Nawaz", "gender": "Female", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Dynasty heir with megaphone", "charges": ["Convicted then back in power", "Live-tweeted governance", "Made nepotism a campaign flex"]},
+        {"name": "Bilawal Bhutto", "wiki": "Bilawal Bhutto Zardari", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Inherited party like franchise", "charges": ["Foreign minister viral moments", "Nepotism jokes eternal", "Made speeches meme-ready"]},
+        {"name": "Altaf Hussain", "wiki": "Altaf Hussain", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Led party from London exile", "charges": ["Hours-long phone speeches", "Banned from media not drama", "Made Karachi politics transcontinental"]},
+        {"name": "Shehbaz Sharif", "wiki": "Shehbaz Sharif", "gender": "Male", "category": "Politician", "severityTier": "Timeless Offender", "crime": "Dynasty PM of perpetual scandal", "charges": ["Political influence allegations", "Housing and corruption headlines", "Turned real estate into statecraft"]},
+        {"name": "General Bajwa", "wiki": "Qamar Javed Bajwa", "gender": "Male", "category": "Politician", "severityTier": "Timeless Offender", "crime": "Army chief as shadow PM", "charges": ["Extended tenure controversially", "Imran fallout defined legacy", "Made khaki politics explicit"]},
+        {"name": "Hafiz Saeed", "wiki": "Hafiz Muhammad Saeed", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Militant leader turned public figure", "charges": ["Designated terrorist globally", "Jailed and released cyclically", "Made extremism a political variable"]}
+      ]
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "people": [
+        {"name": "Marine Le Pen", "wiki": "Marine Le Pen", "gender": "Female", "category": "Politician", "severityTier": "Timeless Offender", "crime": "Made nationalism runway-ready", "charges": ["Lost three presidential finals", "EU funds scandal haunted party", "Turned immigration fear into franchise"]},
+        {"name": "Emmanuel Macron", "wiki": "Emmanuel Macron", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Jupiter president, pension riots", "charges": ["Raised retirement age despite protests", "Slapped on camera, memed globally", "Made centrism feel arrogant"]},
+        {"name": "Nicolas Sarkozy", "wiki": "Nicolas Sarkozy", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Bling presidency ended in court", "charges": ["Convicted on corruption", "Married Carla Bruni mid-crisis", "Made speed a governing style"]},
+        {"name": "Gérard Depardieu", "wiki": "Gérard Depardieu", "gender": "Male", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Acting legend, tax exile", "charges": ["Fled to Russia for taxes", "Serious assault allegations", "Made citizenship swaps news"]},
+        {"name": "Dominique Strauss-Kahn", "wiki": "Dominique Strauss-Kahn", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "IMF chief undone in hotel", "charges": ["NYC arrest ended presidency hopes", "Made French politics tabloid", "Scandal ended career overnight"]},
+        {"name": "Eric Zemmour", "wiki": "Éric Zemmour", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Pundit who ran on outrage", "charges": ["Convicted of hate speech", "Lost election, kept controversy", "Made TV debates a campaign"]},
+        {"name": "Jean-Marie Le Pen", "wiki": "Jean-Marie Le Pen", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Founded far-right dynasty", "charges": ["Holocaust minimization convictions", "Kicked from own party", "Made xenophobia electoral"]},
+        {"name": "François Hollande", "wiki": "François Hollande", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Scooter affair president", "charges": ["Historic low approval", "Cheating scandal on moped", "Made socialism invisible"]},
+        {"name": "Brigitte Bardot", "wiki": "Brigitte Bardot", "gender": "Female", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Icon turned fined hate speaker", "charges": ["Multiple racism convictions", "Attacked #MeToo publicly", "Animal rights plus bigotry"]},
+        {"name": "Dieudonné", "wiki": "Dieudonné M'bala M'bala", "gender": "Male", "category": "Celebrity", "severityTier": "Legacy Evil", "crime": "Comedian turned hate tour", "charges": ["Multiple hate speech convictions", "Banned from venues repeatedly", "Made quenelle a hate symbol"]}
+      ]
+    },
+    {
+      "code": "PT",
+      "name": "Portugal",
+      "people": [
+        {"name": "José Sócrates", "wiki": "José Sócrates", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "PM arrested in corruption probe", "charges": ["Operation Marquês defendant", "Golden visa era scandals", "Made socialist party toxic"]},
+        {"name": "Ricardo Salgado", "wiki": "Ricardo Salgado", "gender": "Male", "category": "Corporate", "severityTier": "Legacy Evil", "crime": "Banker who broke a bank", "charges": ["BES fraud accusations", "Hidden debts collapsed empire", "Made banking a crime thriller"]},
+        {"name": "António Costa", "wiki": "António Costa", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Resigned over influence probe", "charges": ["PM exit amid corruption search", "TAP airline mess", "Made stability unstable"]},
+        {"name": "Cristiano Ronaldo", "wiki": "Cristiano Ronaldo", "gender": "Male", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "SIUU as personality policy", "charges": ["Tax fraud convictions in Spain", "Walked off mutiny at Man United", "Made ego globally televised"]},
+        {"name": "José Mourinho", "wiki": "José Mourinho", "gender": "Male", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Special One special chaos", "charges": ["Fined for referee drama globally", "Third-season curse meme", "Made pressers combat sport"]},
+        {"name": "Pedro Passos Coelho", "wiki": "Pedro Passos Coelho", "gender": "Male", "category": "Politician", "severityTier": "Timeless Offender", "crime": "Troika austerity PM", "charges": ["Cut wages during crisis", "Offshore tax scandal", "Made bailout pain personal"]},
+        {"name": "Marcelo Rebelo de Sousa", "wiki": "Marcelo Rebelo de Sousa", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "President who jumps in the sea", "charges": ["Saved swimmers for photo ops", "Dissolved parliament dramatically", "Made figurehead an influencer"]},
+        {"name": "Paulo Portas", "wiki": "Paulo Portas", "gender": "Male", "category": "Politician", "severityTier": "Timeless Offender", "crime": "Coalition king forever", "charges": ["Minor party, major leverage", "TV pundit before politician", "Turned kingmaking into career"]},
+        {"name": "Duarte Lima", "wiki": "Duarte Lima", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "MP convicted for homicide", "charges": ["Killed man in property dispute", "Parliamentary immunity drama", "Made politics literally deadly"]},
+        {"name": "Luís Montenegro", "wiki": "Luís Montenegro", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "PM with family business questions", "charges": ["Conflict of interest headlines", "Coalition drama weekly", "Made center-right wobbly"]}
+      ]
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "people": [
+        {"name": "Angela Merkel", "wiki": "Angela Merkel", "gender": "Female", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Mutti who closed nuclear plants", "charges": ["Energy policy aged poorly", "NSA spying response muted", "Made stability stagnant"]},
+        {"name": "Olaf Scholz", "wiki": "Olaf Scholz", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Chancellor of slow decisions", "charges": ["Ukraine hesitancy criticized", "Coalition chaos constant", "Made boring incompetent"]},
+        {"name": "Björn Höcke", "wiki": "Björn Höcke", "gender": "Male", "category": "Politician", "severityTier": "Timeless Offender", "crime": "Far-right historian cosplayer", "charges": ["Fined for Nazi speech rhetoric", "AfD extremism symbol", "Made fascism electoral again"]},
+        {"name": "Martin Winterkorn", "wiki": "Martin Winterkorn", "gender": "Male", "category": "Corporate", "severityTier": "Legacy Evil", "crime": "Dieselgate architect", "charges": ["Emissions cheating scandal", "Charged with fraud", "Made German engineering lie"]},
+        {"name": "Boris Becker", "wiki": "Boris Becker", "gender": "Male", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Wimbledon god to UK jail", "charges": ["Jailed hiding assets in bankruptcy", "Cautionary fame tale", "Turned champion into legal saga"]},
+        {"name": "Uli Hoeneß", "wiki": "Uli Hoeneß", "gender": "Male", "category": "Celebrity", "severityTier": "Legacy Evil", "crime": "Bayern boss jailed for tax", "charges": ["Convicted tax evasion", "Returned to board anyway", "Made jail a pit stop"]},
+        {"name": "Alice Weidel", "wiki": "Alice Weidel", "gender": "Female", "category": "Politician", "severityTier": "Villain of the Week", "crime": "AfD leader with offshore past", "charges": ["Philippines nanny payment scandal", "Radicalized party rhetoric", "Made nationalism suit-wearing"]},
+        {"name": "Karl Lauterbach", "wiki": "Karl Lauterbach", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "COVID minister of mixed messages", "charges": ["Flip-flopped on mandates", "Tweeted through pandemic", "Made health policy chaotic"]},
+        {"name": "Markus Braun", "wiki": "Markus Braun", "gender": "Male", "category": "Corporate", "severityTier": "Legacy Evil", "crime": "Wirecard fintech fraud face", "charges": ["Billions missing from accounts", "Regulators asleep", "Made DAX a crime scene"]},
+        {"name": "Christian Lindner", "wiki": "Christian Lindner", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Collapsed coalition over debt brake", "charges": ["Broke traffic light government", "Prioritized fiscal dogma", "Made FDP irrelevant again"]}
+      ]
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "people": [
+        {"name": "Xi Jinping", "wiki": "Xi Jinping", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "President for life energy", "charges": ["Crushed Hong Kong autonomy", "Zero-COVID lockdowns extreme", "Made dissent disappear quietly"]},
+        {"name": "Jack Ma", "wiki": "Jack Ma", "gender": "Male", "category": "Corporate", "severityTier": "Villain of the Week", "crime": "Disappeared after roasting regulators", "charges": ["Ant Group IPO killed", "Vanished from public months", "Made billionaire humility mandatory"]},
+        {"name": "Mao Zedong", "wiki": "Mao Zedong", "gender": "Male", "category": "Historical", "severityTier": "Legacy Evil", "crime": "Revolution icon, famine legacy", "charges": ["Cultural Revolution devastation", "Great Leap Forward catastrophe", "Made personality cult policy"]},
+        {"name": "Dalai Lama", "wiki": "14th Dalai Lama", "gender": "Male", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Exile symbol China hates globally", "charges": ["Beijing calls him separatist", "Global icon of resistance", "Made spirituality geopolitical"]},
+        {"name": "Hui Ka Yan", "wiki": "Hui Ka Yan", "gender": "Male", "category": "Corporate", "severityTier": "Legacy Evil", "crime": "Evergrande housing Ponzi king", "charges": ["$300B debt collapse", "Ghost cities funded by hype", "Made property feel fraudulent"]},
+        {"name": "Carrie Lam", "wiki": "Carrie Lam", "gender": "Female", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Hong Kong CEO of crackdown era", "charges": ["National security law era", "Protests crushed on watch", "Made autonomy a memory"]},
+        {"name": "Pony Ma", "wiki": "Pony Ma", "gender": "Male", "category": "Corporate", "severityTier": "Villain of the Week", "crime": "Tencent gaming limits architect", "charges": ["Youth playtime capped by law", "WeChat censorship built-in", "Made fun state-regulated"]},
+        {"name": "Ren Zhengfei", "wiki": "Ren Zhengfei", "gender": "Male", "category": "Corporate", "severityTier": "Villain of the Week", "crime": "Huawei 5G geopolitics mascot", "charges": ["Global sanctions fight", "CFO house arrest saga", "Made routers international drama"]},
+        {"name": "Deng Xiaoping", "wiki": "Deng Xiaoping", "gender": "Male", "category": "Historical", "severityTier": "Legacy Evil", "crime": "Reform icon, Tiananmen shadow", "charges": ["1989 crackdown legacy", "Capitalism with communist label", "Made growth the only morality"]},
+        {"name": "Li Peng", "wiki": "Li Peng", "gender": "Male", "category": "Historical", "severityTier": "Legacy Evil", "crime": "Tiananmen hardliner PM", "charges": ["Declared martial law 1989", "Known as 'Butcher of Beijing'", "Made tanks a policy tool"]}
+      ]
+    },
+    {
+      "code": "BR",
+      "name": "Brazil",
+      "people": [
+        {"name": "Jair Bolsonaro", "wiki": "Jair Bolsonaro", "gender": "Male", "category": "Politician", "severityTier": "Timeless Offender", "crime": "Amazon arson as policy", "charges": ["COVID denial cost lives", "Coup plot investigations", "Made guns a personality trait"]},
+        {"name": "Lula", "wiki": "Luiz Inácio Lula da Silva", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Convicted then president again", "charges": ["Operation Car Wash ties", "Prison to palace return", "Made corruption cyclical"]},
+        {"name": "Michel Temer", "wiki": "Michel Temer", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Impeachment backup president", "charges": ["Corruption charges followed", "Lowest approval in history", "Made VP role dangerous"]},
+        {"name": "Dilma Rousseff", "wiki": "Dilma Rousseff", "gender": "Female", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Impeached over budget tricks", "charges": ["Petrobras scandal backdrop", "Removed mid-second term", "Made accounting criminal"]},
+        {"name": "Neymar", "wiki": "Neymar", "gender": "Male", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Most expensive flop drama", "charges": ["Tax fraud abroad", "Simulation memes global", "Made diving a career"]},
+        {"name": "Ronaldinho", "wiki": "Ronaldinho", "gender": "Male", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Genius to Paraguay jail", "charges": ["Fake passport scandal", "Party legend cautionary tale", "Made flair expensive"]},
+        {"name": "Sergio Moro", "wiki": "Sergio Moro", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Anti-corruption judge turned pol", "charges": ["Judicial bias accusations", "Joined Bolsonaro then split", "Made justice partisan"]},
+        {"name": "Eike Batista", "wiki": "Eike Batista", "gender": "Male", "category": "Corporate", "severityTier": "Legacy Evil", "crime": "Richest to bankruptcy speedrun", "charges": ["Market manipulation conviction", "Promised oil boom, delivered fraud", "Made BRICS dream toxic"]},
+        {"name": "Marcelo Odebrecht", "wiki": "Marcelo Odebrecht", "gender": "Male", "category": "Corporate", "severityTier": "Legacy Evil", "crime": "Construction bribery empire", "charges": ["Car Wash central figure", "Jailed then house arrest", "Made infrastructure corrupt"]},
+        {"name": "Flordelis", "wiki": "Flordelis", "gender": "Female", "category": "Celebrity", "severityTier": "Legacy Evil", "crime": "Pastor MP convicted for murder", "charges": ["Ordered husband killed", "Used faith as cover", "Made gospel political deadly"]}
+      ]
+    },
+    {
+      "code": "MX",
+      "name": "Mexico",
+      "people": [
+        {"name": "Andrés Manuel López Obrador", "wiki": "Andrés Manuel López Obrador", "gender": "Male", "category": "Politician", "severityTier": "Timeless Offender", "crime": "Morning presser marathon president", "charges": ["Attacked journalists daily", "Energy policy scared investors", "Made mañanera permanent"]},
+        {"name": "El Chapo", "wiki": "Joaquín Guzmán", "gender": "Male", "category": "Historical", "severityTier": "Legacy Evil", "crime": "Cartel CEO with tunnel budget", "charges": ["Escaped prison twice", "Life sentence in US", "Made violence multinational"]},
+        {"name": "Carlos Slim", "wiki": "Carlos Slim", "gender": "Male", "category": "Corporate", "severityTier": "Timeless Offender", "crime": "Monopolized Mexico quietly", "charges": ["Telco dominance decades", "Richest man controversies", "Made competition theoretical"]},
+        {"name": "Peña Nieto", "wiki": "Enrique Peña Nieto", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "President of memes and corruption", "charges": ["Scandal by association", "Couldn't name books interview", "Made PRI toxic again"]},
+        {"name": "Genaro García Luna", "wiki": "Genaro García Luna", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Top cop convicted for cartel ties", "charges": ["US trial guilty verdict", "Calderón era stain", "Made war on drugs a joke"]},
+        {"name": "Vicente Fox", "wiki": "Vicente Fox", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Ex-president trolling on Twitter", "charges": ["Cannabis brand post-presidency", "Trump fights online", "Made dignity optional"]},
+        {"name": "Kate del Castillo", "wiki": "Kate del Castillo", "gender": "Female", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Actress in El Chapo meeting saga", "charges": ["Sean Penn interview scandal", "Investigated for cartel links", "Made Hollywood meet narcos"]},
+        {"name": "Claudia Sheinbaum", "wiki": "Claudia Sheinbaum", "gender": "Female", "category": "Politician", "severityTier": "Villain of the Week", "crime": "AMLO heir same playbook", "charges": ["Continues controversial policies", "Security crisis persists", "Made succession predictable"]},
+        {"name": "Ricardo Salinas Pliego", "wiki": "Ricardo Salinas Pliego", "gender": "Male", "category": "Corporate", "severityTier": "Villain of the Week", "crime": "Billionaire tweeting through scandals", "charges": ["Tax disputes public", "TV Azteca influence", "Made oligarch trolling normal"]},
+        {"name": "Emilio Lozoya", "wiki": "Emilio Lozoya", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Pemex chief turned witness", "charges": ["Odebrecht bribes scandal", "Extradited from Spain", "Made oil state crime scene"]}
+      ]
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "people": [
+        {"name": "Shinzo Abe", "wiki": "Shinzo Abe", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Longest PM, assassinated legacy", "charges": ["Unification Church scandal posthumous", "Abenomics mixed results", "Made nationalism normal"]},
+        {"name": "Carlos Ghosn", "wiki": "Carlos Ghosn", "gender": "Male", "category": "Corporate", "severityTier": "Legacy Evil", "crime": "Escaped Japan in a box", "charges": ["Financial misconduct charges", "Hollywood-level escape", "Made CEO arrest cinematic"]},
+        {"name": "Johnny Kitagawa", "wiki": "Johnny Kitagawa", "gender": "Male", "category": "Celebrity", "severityTier": "Legacy Evil", "crime": "Boy band mogul abuse scandal", "charges": ["Posthumous abuse report", "Industry silence decades", "Made J-pop sinister"]},
+        {"name": "Masayoshi Son", "wiki": "Masayoshi Son", "gender": "Male", "category": "Corporate", "severityTier": "Villain of the Week", "crime": "Vision Fund money furnace", "charges": ["WeWork disaster investment", "Lost billions cheerfully", "Made VC a casino"]},
+        {"name": "Yoshiro Mori", "wiki": "Yoshiro Mori", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Olympics chief sexist gaffe", "charges": ["Women talk too much comment", "Resigned in disgrace", "Made 2020 Games cursed"]},
+        {"name": "Shintaro Ishihara", "wiki": "Shintaro Ishihara", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Tokyo governor provocateur", "charges": ["Senkaku purchase stunt", "Racist rhetoric normalized", "Made nationalism loud"]},
+        {"name": "Fumio Kishida", "wiki": "Fumio Kishida", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "PM with slush fund headlines", "charges": ["Party scandal forced exit", "Weak yen era", "Made LDP stale"]},
+        {"name": "Naoto Kan", "wiki": "Naoto Kan", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "PM when Fukushima melted down", "charges": ["Delayed disclosure criticized", "Ocean release protests", "Made nuclear trust zero"]},
+        {"name": "Tōru Hashimoto", "wiki": "Tōru Hashimoto", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Osaka mayor of offensive takes", "charges": ["Comfort women comments", "Populist reform branding", "Made provocation electoral"]},
+        {"name": "Yoshihide Suga", "wiki": "Yoshihide Suga", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "One-year PM forgettable", "charges": ["COVID Olympics push", "Low approval exit", "Made replacement pointless"]}
+      ]
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "people": [
+        {"name": "Scott Morrison", "wiki": "Scott Morrison", "gender": "Male", "category": "Politician", "severityTier": "Timeless Offender", "crime": "Hawaii during fire season PM", "charges": ["Secret multiple ministries scandal", "Robodebt scheme cruelty", "Made empathy optional"]},
+        {"name": "Tony Abbott", "wiki": "Tony Abbott", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Knighthood for Prince Philip", "charges": ["Climate denial PM era", "Onion eating memes", "Made Australia meme nation"]},
+        {"name": "Rupert Murdoch", "wiki": "Rupert Murdoch", "gender": "Male", "category": "Corporate", "severityTier": "Legacy Evil", "crime": "Born here, harmed media globally", "charges": ["News Corp bias accusations", "Fox News empire origin", "Made tabloids policy"]},
+        {"name": "Clive Palmer", "wiki": "Clive Palmer", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Billionaire spam-text politician", "charges": ["COVID misinfo billboards", "Mining disputes endless", "Made democracy annoying"]},
+        {"name": "Pauline Hanson", "wiki": "Pauline Hanson", "gender": "Female", "category": "Politician", "severityTier": "Timeless Offender", "crime": "One Nation forever", "charges": ["Racism convictions history", "Burqa stunt in Senate", "Made xenophobia electoral"]},
+        {"name": "Peter Dutton", "wiki": "Peter Dutton", "gender": "Male", "category": "Politician", "severityTier": "Timeless Offender", "crime": "Immigration hardliner PM now", "charges": ["Refugee policy cruelty", "Leaked text scandals", "Made border fear policy"]},
+        {"name": "Alan Jones", "wiki": "Alan Jones", "gender": "Male", "category": "Celebrity", "severityTier": "Legacy Evil", "crime": "Shock jock until too far", "charges": ["Harassment allegations", "Climate denial on air", "Made radio radicalizing"]},
+        {"name": "Nick Kyrgios", "wiki": "Nick Kyrgios", "gender": "Male", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Talent, tantrum artist", "charges": ["Assault charge allegations", "On-court meltdowns viral", "Made sport secondary"]},
+        {"name": "Barnaby Joyce", "wiki": "Barnaby Joyce", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Deputy PM affair preaching family", "charges": ["Paternity scandal public", "Climate skeptic rural boss", "Made hypocrisy agricultural"]},
+        {"name": "Anthony Albanese", "wiki": "Anthony Albanese", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "PM of low expectations met", "charges": ["Voice referendum failed", "Housing crisis continues", "Made change cosmetic"]}
+      ]
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "people": [
+        {"name": "Justin Trudeau", "wiki": "Justin Trudeau", "gender": "Male", "category": "Politician", "severityTier": "Timeless Offender", "crime": "Socks diplomacy PM", "charges": ["Blackface photos resurfaced", "Ethics violations multiple", "Made charm insufficient"]},
+        {"name": "Doug Ford", "wiki": "Doug Ford", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Ontario premier of chaos", "charges": ["Greenbelt scandal", "COVID policy whiplash", "Made brother's legacy worse"]},
+        {"name": "Rob Ford", "wiki": "Rob Ford", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Crack smoking mayor legend", "charges": ["Filmed smoking crack", "Denial then admission cycle", "Made Toronto global punchline"]},
+        {"name": "Pierre Poilievre", "wiki": "Pierre Poilievre", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Crypto-bro conservatism", "charges": ["Promoted bitcoin to masses", "Attacks Trudeau as personality", "Made grievance a platform"]},
+        {"name": "Jordan Peterson", "wiki": "Jordan Peterson", "gender": "Male", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Professor of owning libs", "charges": ["Benzo rehab saga public", "Culture war monetization", "Made lobsters political"]},
+        {"name": "Conrad Black", "wiki": "Conrad Black", "gender": "Male", "category": "Corporate", "severityTier": "Legacy Evil", "crime": "Media baron jailed for fraud", "charges": ["Convicted obstruction and fraud", "Returned to Canada pardoned", "Made press barons criminals"]},
+        {"name": "Don Cherry", "wiki": "Don Cherry", "gender": "Male", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Hockey racist rant fired", "charges": ["You people comment ended career", "Made Coach's Corner combat", "Turned sports into culture war"]},
+        {"name": "Jagmeet Singh", "wiki": "Jagmeet Singh", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "NDP leader of endless opposition", "charges": ["Prop up governments then complain", "TikTok politics aesthetic", "Made left feel performative"]},
+        {"name": "Maxime Bernier", "wiki": "Maxime Bernier", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "People's Party outrage merchant", "charges": ["Split conservatives deliberately", "COVID skepticism platform", "Made fringe electoral"]},
+        {"name": "Kellie Leitch", "wiki": "Kellie Leitch", "gender": "Female", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Canadian values test lady", "charges": ["Anti-immigrant campaign failed", "Made Trumpism Canadian briefly", "Turned screening into xenophobia"]}
+      ]
+    },
+    {
+      "code": "ZA",
+      "name": "South Africa",
+      "people": [
+        {"name": "Jacob Zuma", "wiki": "Jacob Zuma", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "State capture era president", "charges": ["Corruption trial ongoing", "Gupta family ties", "Made kleptocracy normal"]},
+        {"name": "Oscar Pistorius", "wiki": "Oscar Pistorius", "gender": "Male", "category": "Celebrity", "severityTier": "Legacy Evil", "crime": "Blade Runner to convicted killer", "charges": ["Killed girlfriend Reeva Steenkamp", "Multiple trial appeals", "Made heroism a horror story"]},
+        {"name": "Julius Malema", "wiki": "Julius Malema", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "EFF leader of rage politics", "charges": ["Hate speech convictions", "Incitement controversies", "Made red berets threatening"]},
+        {"name": "Cyril Ramaphosa", "wiki": "Cyril Ramaphosa", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Reform hope, load-shedding reality", "charges": ["Phala Phala farm scandal", "Power cuts defined tenure", "Made promise exhausting"]},
+        {"name": "P.W. Botha", "wiki": "P. W. Botha", "gender": "Male", "category": "Historical", "severityTier": "Legacy Evil", "crime": "Apartheid hardliner president", "charges": ["Refused to free Mandela years", "State of emergency violence", "Made racism systematic"]},
+        {"name": "Eugene Terreblanche", "wiki": "Eugene Terreblanche", "gender": "Male", "category": "Historical", "severityTier": "Legacy Evil", "crime": "AWB white supremacist leader", "charges": ["Neo-Nazi militia founder", "Killed by employee", "Made apartheid nostalgia violent"]},
+        {"name": "Markus Jooste", "wiki": "Markus Jooste", "gender": "Male", "category": "Corporate", "severityTier": "Legacy Evil", "crime": "Steinhoff fraud architect", "charges": ["€6B accounting scandal", "Fled accountability", "Made retail a crime scene"]},
+        {"name": "Ace Magashule", "wiki": "Ace Magashule", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Free State corruption kingpin", "charges": ["Asbestos removal scandal", "ANC secretary drama", "Made province a looting lab"]},
+        {"name": "Tim Bell", "wiki": "Tim Bell, Baron Bell", "gender": "Male", "category": "Corporate", "severityTier": "Legacy Evil", "crime": "Bell Pottinger founder of spin", "charges": ["Gupta-linked propaganda campaign", "Wound up in disgrace", "Made racism a client service"]},
+        {"name": "Tom Moyane", "wiki": "Tom Moyane", "gender": "Male", "category": "Corporate", "severityTier": "Legacy Evil", "crime": "SARS chief who gutted tax agency", "charges": ["Gupta-capture allegations", "Fired after commission inquiry", "Made tax collection political"]}
+      ]
+    },
+    {
+      "code": "NG",
+      "name": "Nigeria",
+      "people": [
+        {"name": "Bola Tinubu", "wiki": "Bola Tinubu", "gender": "Male", "category": "Politician", "severityTier": "Timeless Offender", "crime": "President of fuel subsidy chaos", "charges": ["Drug forfeiture past resurfaced", "Naira collapse on watch", "Made godfather politics national"]},
+        {"name": "Muhammadu Buhari", "wiki": "Muhammadu Buhari", "gender": "Male", "category": "Politician", "severityTier": "Timeless Offender", "crime": "Eight years of security collapse", "charges": ["Kidnapping epidemic worsened", "Economy stagnation legacy", "Made hope feel naive"]},
+        {"name": "Goodluck Jonathan", "wiki": "Goodluck Jonathan", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Missing Chibok girls president", "charges": ["Boko Haram crisis mishandled", "Corruption scandals rampant", "Made ineptitude presidential"]},
+        {"name": "Sani Abacha", "wiki": "Sani Abacha", "gender": "Male", "category": "Historical", "severityTier": "Legacy Evil", "crime": "Dictator whose loot still found", "charges": ["Stole billions brutally", "Killed activist Ken Saro-Wiwa era", "Made Swiss banks Nigerian"]},
+        {"name": "Diezani Alison-Madueke", "wiki": "Diezani Alison-Madueke", "gender": "Female", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Oil minister luxury corruption", "charges": ["UK bribery charges", "Jewelry and yachts seized", "Made petroleum a personal purse"]},
+        {"name": "Hushpuppi", "wiki": "Ramon Abbas", "gender": "Male", "category": "Celebrity", "severityTier": "Legacy Evil", "crime": "Instagram fraudster FBI caught", "charges": ["$41M scam conviction US", "Flexed luxury while stealing", "Made flexing federal evidence"]},
+        {"name": "Innocent Chukwuma", "wiki": "Innocent Chukwuma", "gender": "Male", "category": "Corporate", "severityTier": "Villain of the Week", "crime": "Innoson vs GTBank saga face", "charges": ["Fraud accusations traded publicly", "Made car manufacturing dramatic", "Turned courts into marketing"]},
+        {"name": "Nnamdi Kanu", "wiki": "Nnamdi Kanu", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "IPOB separatist broadcaster", "charges": ["Treason trial ongoing", "Extradited dramatically", "Made secession a podcast"]},
+        {"name": "Patience Jonathan", "wiki": "Patience Jonathan", "gender": "Female", "category": "Politician", "severityTier": "Villain of the Week", "crime": "First lady money snake memes", "charges": ["EFCC probe headlines", "Made 'there is God o' viral", "Turned office into comedy"]},
+        {"name": "Atiku Abubakar", "wiki": "Atiku Abubakar", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Perennial candidate never president", "charges": ["Lost multiple presidential bids", "Corruption allegations perennial", "Made running a career"]}
+      ]
+    },
+    {
+      "code": "TR",
+      "name": "Turkey",
+      "people": [
+        {"name": "Recep Tayyip Erdoğan", "wiki": "Recep Tayyip Erdoğan", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "President for life vibes", "charges": ["Cracked down on press freedom", "Lira collapse on watch", "Made opposition jailed routine"]},
+        {"name": "Fethullah Gülen", "wiki": "Fethullah Gülen", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Exiled cleric coup blame magnet", "charges": ["2016 coup blamed on movement", "US exile angered Ankara", "Made schools geopolitical"]},
+        {"name": "Devlet Bahçeli", "wiki": "Devlet Bahçeli", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Nationalist kingmaker forever", "charges": ["MHP hardline rhetoric", "Coalition enabler of Erdogan", "Made nationalism permanent"]},
+        {"name": "Enes Kanter", "wiki": "Enes Kanter Freedom", "gender": "Male", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "NBA player Erdogan's public enemy", "charges": ["Passport canceled by Turkey", "Advocacy made him stateless", "Made sneakers political"]},
+        {"name": "Selahattin Demirtaş", "wiki": "Selahattin Demirtaş", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Jailed Kurdish leader symbol", "charges": ["HDP co-chair imprisoned years", "Election popularity from jail", "Made democracy a tragedy"]},
+        {"name": "Fatih Terim", "wiki": "Fatih Terim", "gender": "Male", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Emperor coach scandal era", "charges": ["Tax evasion conviction", "Galatasaray dynasty drama", "Made football authoritarian"]},
+        {"name": "Abdullah Öcalan", "wiki": "Abdullah Öcalan", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "PKK founder imprisoned icon", "charges": ["Terrorism designation globally", "Imrali island imprisonment", "Made conflict decades long"]},
+        {"name": "Sedat Peker", "wiki": "Sedat Peker", "gender": "Male", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Mafia boss YouTube exposés", "charges": ["Accused officials from exile", "Gangster turned influencer", "Made crime vlogging political"]},
+        {"name": "Bülent Arınç", "wiki": "Bülent Arınç", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "AKP co-founder scandal quotes", "charges": ["Women should shut up moment", "Corruption hypocrisy headlines", "Made conservatism cruel"]},
+        {"name": "Hakan Fidan", "wiki": "Hakan Fidan", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Intel chief of shadow wars", "charges": ["MIT operations controversial", "Syria and Kurdish ops", "Made spying state policy"]}
+      ]
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "people": [
+        {"name": "Silvio Berlusconi", "wiki": "Silvio Berlusconi", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Bunga bunga PM empire", "charges": ["Tax fraud conviction", "Sex parties scandal", "Owned media while governing"]},
+        {"name": "Matteo Salvini", "wiki": "Matteo Salvini", "gender": "Male", "category": "Politician", "severityTier": "Timeless Offender", "crime": "Closed ports, opened outrage", "charges": ["Migration hardliner stunts", "Kidnapping charges dropped", "Made xenophobia Italian"]},
+        {"name": "Giorgia Meloni", "wiki": "Giorgia Meloni", "gender": "Female", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Far-right PM Brothers of Italy", "charges": ["Post-fascist party roots", "Culture war on family", "Made Mussolini nostalgia debatable"]},
+        {"name": "Benito Mussolini", "wiki": "Benito Mussolini", "gender": "Male", "category": "Historical", "severityTier": "Legacy Evil", "crime": "Original fascist franchise", "charges": ["Allied with Hitler", "Dictatorship destroyed democracy", "Made trains-on-time a lie"]},
+        {"name": "Matteo Renzi", "wiki": "Matteo Renzi", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Young reformer who broke everything", "charges": ["Lost referendum, resigned", "Senator for life drama", "Made centrism exhausting"]},
+        {"name": "Giuseppe Conte", "wiki": "Giuseppe Conte", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Professor PM of COVID chaos", "charges": ["Coalition collapses twice", "Lockdown whiplash", "Made technocracy messy"]},
+        {"name": "Beppe Grillo", "wiki": "Beppe Grillo", "gender": "Male", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Comedian founded Five Star", "charges": ["Anti-vax rhetoric history", "Made protest a party", "Turned comedy into governance"]},
+        {"name": "Amanda Knox", "wiki": "Amanda Knox", "gender": "Female", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Trial by Italian tabloid globally", "charges": ["Wrongful conviction overturned", "Media circus villainized her", "Made justice a Netflix show"]},
+        {"name": "Gerald Pique", "wiki": "Gerard Piqué", "gender": "Male", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Shakira diss track villain", "charges": ["Kings League while divorcing", "Tax fraud conviction Spain", "Made cheating a chart hit"]},
+        {"name": "Marcello Dell'Utri", "wiki": "Marcello Dell'Utri", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Berlusconi mafia link convicted", "charges": ["External association with Cosa Nostra", "Fled to Lebanon", "Made politics criminal"]}
+      ]
+    },
+    {
+      "code": "ES",
+      "name": "Spain",
+      "people": [
+        {"name": "Francisco Franco", "wiki": "Francisco Franco", "gender": "Male", "category": "Historical", "severityTier": "Legacy Evil", "crime": "Dictator still dividing Spain", "charges": ["Decades of fascist rule", "Mass graves still unresolved", "Made neutrality a dictatorship"]},
+        {"name": "Pedro Sánchez", "wiki": "Pedro Sánchez", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Coalition PM of endless deals", "charges": ["Amnesty law controversy", "Catalan negotiation backlash", "Made stability negotiable"]},
+        {"name": "Santiago Abascal", "wiki": "Santiago Abascal", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Vox far-right rise leader", "charges": ["Anti-immigrant platform", "Culture war on gender", "Made Franco nostalgia electoral"]},
+        {"name": "Carles Puigdemont", "wiki": "Carles Puigdemont", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "Catalan independence exile president", "charges": ["Illegal referendum 2017", "Fled to Belgium", "Made secession a chase scene"]},
+        {"name": "Iñaki Urdangarin", "wiki": "Iñaki Urdangarin", "gender": "Male", "category": "Celebrity", "severityTier": "Legacy Evil", "crime": "Royal son-in-law embezzler", "charges": ["Convicted corruption", "Princess Cristina scandal", "Made royalty criminal"]},
+        {"name": "Juan Carlos I", "wiki": "Juan Carlos I", "gender": "Male", "category": "Celebrity", "severityTier": "Legacy Evil", "crime": "King fled to UAE scandal", "charges": ["Elephant hunting corruption", "Secret accounts revealed", "Made monarchy exile itself"]},
+        {"name": "Mariano Rajoy", "wiki": "Mariano Rajoy", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "PM ousted by corruption vote", "charges": ["PP corruption case backdrop", "Catalan crisis mishandled", "Made no-comment a strategy"]},
+        {"name": "Luis Rubiales", "wiki": "Luis Rubiales", "gender": "Male", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Kissed player without consent on podium", "charges": ["World Cup kiss scandal", "Refused to resign initially", "Made Spanish football toxic"]},
+        {"name": "Rosalia", "wiki": "Rosalía", "gender": "Female", "category": "Celebrity", "severityTier": "Villain of the Week", "crime": "Canceled for cultural appropriation", "charges": ["Flamenco fusion backlash", "Made Latin pop divisive", "Turned art into debate bait"]},
+        {"name": "José María Aznar", "wiki": "José María Aznar", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Iraq war ally PM", "charges": ["Madrid bombing politicized", "PP legacy corruption", "Made Spain neocon briefly"]}
+      ]
+    },
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "people": [
+        {"name": "Mohammed bin Salman", "wiki": "Mohammed bin Salman", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Vision 2030 with bone saw PR", "charges": ["Khashoggi murder linked", "Yemen war prosecuted", "Made reform and repression coexist"]},
+        {"name": "Osama bin Laden", "wiki": "Osama bin Laden", "gender": "Male", "category": "Historical", "severityTier": "Legacy Evil", "crime": "9/11 architect global villain", "charges": ["Al-Qaeda founder", "Decades of terrorism", "Made aviation security permanent"]},
+        {"name": "King Salman", "wiki": "Salman of Saudi Arabia", "gender": "Male", "category": "Politician", "severityTier": "Timeless Offender", "crime": "King during MBS rise", "charges": ["Yemen intervention begun", "Royal purge of cousins", "Made succession a thriller"]},
+        {"name": "Adnan Khashoggi", "wiki": "Adnan Khashoggi", "gender": "Male", "category": "Corporate", "severityTier": "Legacy Evil", "crime": "Arms dealer playboy legend", "charges": ["Iran-Contra links", "Yacht and excess icon", "Made corruption glamorous"]},
+        {"name": "Jamal Khashoggi", "wiki": "Jamal Khashoggi", "gender": "Male", "category": "Celebrity", "severityTier": "Legacy Evil", "crime": "Murdered journalist global symbol", "charges": ["Killed in Istanbul consulate", "MBS responsibility alleged", "Made silence a headline"]},
+        {"name": "Bandar bin Sultan", "wiki": "Bandar bin Sultan", "gender": "Male", "category": "Politician", "severityTier": "Legacy Evil", "crime": "Spy chief prince of shadows", "charges": ["CIA ties controversial", "Iraq war lobbying", "Made royalty intelligence"]},
+        {"name": "Al-Waleed bin Talal", "wiki": "Al-Waleed bin Talal", "gender": "Male", "category": "Corporate", "severityTier": "Villain of the Week", "crime": "Prince investor Ritz-Carlton jail", "charges": ["Detained in 2017 purge", "Twitter stake drama", "Made wealth dangerous"]},
+        {"name": "Yasir Arafat", "wiki": "Yasser Arafat", "gender": "Male", "category": "Historical", "severityTier": "Legacy Evil", "crime": "PLO icon corruption allegations", "charges": ["Oslo accords controversy", "Missing funds accusations", "Made keffiyeh divisive globally"]},
+        {"name": "Abdulaziz Al Sheikh", "wiki": "Abdul-Aziz ibn Abdullah Al ash-Sheikh", "gender": "Male", "category": "Politician", "severityTier": "Timeless Offender", "crime": "Grand mufti of religious police era", "charges": ["Harassed women for decades", "Power reduced but legacy", "Made virtue violent"]},
+        {"name": "Turki Al-Sheikh", "wiki": "Turki Al-Sheikh", "gender": "Male", "category": "Politician", "severityTier": "Villain of the Week", "crime": "NEOM and sports wash architect", "charges": ["Forced displacement reports", "Entertainment authority crackdowns", "Made dystopia marketing"]}
+      ]
+    }
+  ]
+}
