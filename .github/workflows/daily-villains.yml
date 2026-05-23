@@ -6,29 +6,29 @@ on:
     - cron: "30 0 * * *"
   workflow_dispatch:
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    defaults:
-      run:
-        working-directory: web
-
     steps:
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
           cache: npm
           cache-dependency-path: web/package-lock.json
 
-      - run: npm ci
+      - name: Install dependencies
+        working-directory: web
+        run: npm ci
 
       - name: Fetch daily picks (6+ India)
+        working-directory: web
         run: npm run fetch:daily-villains
 
       - name: Commit and push updated batch
@@ -36,7 +36,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/data/daily-villains.json
+          git add web/src/data/daily-villains.json
           if git diff --staged --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No changes to daily-villains.json"
@@ -48,12 +48,12 @@ jobs:
 
       - name: Trigger Vercel redeploy
         if: steps.commit.outputs.changed == 'true'
+        working-directory: web
         env:
           VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-        working-directory: web
         run: |
           if [ -n "$VERCEL_DEPLOY_HOOK" ]; then
             echo "Deploying via hook..."
