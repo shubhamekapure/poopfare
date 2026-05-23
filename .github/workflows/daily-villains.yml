@@ -48,7 +48,6 @@ jobs:
 
       - name: Trigger Vercel redeploy
         if: steps.commit.outputs.changed == 'true'
-        working-directory: web
         env:
           VERCEL_DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
@@ -59,7 +58,7 @@ jobs:
             echo "Deploying via hook..."
             curl -fsS -X POST "$VERCEL_DEPLOY_HOOK"
           elif [ -n "$VERCEL_TOKEN" ]; then
-            echo "Deploying via Vercel CLI..."
+            echo "Deploying via Vercel CLI (repo root; project rootDirectory=web)..."
             npx vercel deploy --prod --token "$VERCEL_TOKEN" --yes
           else
             echo "No VERCEL_DEPLOY_HOOK or VERCEL_TOKEN — commit pushed; redeploy manually or add secret."
