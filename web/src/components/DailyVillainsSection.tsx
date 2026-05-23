@@ -6,7 +6,8 @@ import { PersonAvatar } from "@/components/PersonAvatar";
 import { PersonModal } from "@/components/PersonModal";
 import {
   getDailyPersons,
-  isDailyBatchStale,
+  getDailyBatchDate,
+  isDailyBatchToday,
   refreshDailyPersons,
 } from "@/lib/daily-villains";
 import type { Person } from "@/lib/types";
@@ -19,10 +20,8 @@ export function DailyVillainsSection() {
   useEffect(() => {
     const load = async () => {
       setLoading(true);
-      if (isDailyBatchStale()) {
-        await refreshDailyPersons();
-      }
-      setPicks(getDailyPersons());
+      const fresh = await refreshDailyPersons();
+      setPicks(fresh.length ? fresh : getDailyPersons());
       setLoading(false);
     };
 
@@ -32,6 +31,9 @@ export function DailyVillainsSection() {
     return () =>
       window.removeEventListener("poopfare-daily-villains-updated", handler);
   }, []);
+
+  const batchDate = getDailyBatchDate();
+  const isToday = isDailyBatchToday();
 
   if (loading) {
     return (
@@ -62,8 +64,10 @@ export function DailyVillainsSection() {
             Today&apos;s fresh poopanthropists
           </h2>
           <p className="mt-1 text-sm text-stone-500">
-            Today&apos;s scandal coverage — new faces from India & global news wires.
-            Wikipedia fills in photos.
+            {isToday
+              ? "Today's scandal coverage — new faces from India & global news wires."
+              : `Latest batch (${batchDate}) — new faces from India & global news wires.`}
+            {" "}Wikipedia fills in photos.
           </p>
         </div>
         <Link
